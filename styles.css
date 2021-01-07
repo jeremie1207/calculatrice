@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.display {
+  height: 7.5rem;
+  width: 21rem;
+}
+
+.display input {
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  background-color: black;
+  color: aliceblue;
+  font-size: 2.5rem;
+  text-align: right;
+}
+
+button {
+  height: 3rem;
+  width: 5rem;
+  font-size: 1rem;
+  margin: 0.1rem;
+}
+.numberAndSign {
+  margin-top: 0.5rem;
+}
+.equal button {
+  position: relative;
+  left: 16.35rem;
+  height: 12.3rem;
+  bottom: 12.5rem;
+  background-color: coral;
+  border-bottom-right-radius: 1.5rem;
+}
+.equal button:hover {
+  background-color: orange;
+}
+
+.zero {
+  border-bottom-left-radius: 1.5rem;
+}
